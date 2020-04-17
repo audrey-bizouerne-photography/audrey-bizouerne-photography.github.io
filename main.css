@@ -57,6 +57,10 @@ h3 {
   /* background-color: grey; */
 }
 
+nav {
+  background-color: #fafafa;
+}
+
 .navbar-dark .navbar-brand {
   /* padding-top: 1rem; */
   color: #1a1a1a;
