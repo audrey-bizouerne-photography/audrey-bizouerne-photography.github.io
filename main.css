@@ -96,6 +96,7 @@ img {
   padding-bottom: 2rem;
 }
 
+/* MENU HOVER */
 
 .img-container {
   position: relative;
@@ -109,38 +110,40 @@ img {
 .img-container .overlay {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
+  bottom: 9;
   right: 0;
   opacity: 0;
   transition: 100ms ease-in-out;
 }
 
-.img-container img{
-  /* opacity: 1; */
-  /* filter: brightness(50%); */
-}
 
-.img-container:hover {
+.img-container :hover {
   filter: brightness(50%);
 }
 
 .img-container:hover .overlay {
   opacity: 1;
-  color: #1a1a1a;
 }
 
 
-.overlay span {
+.overlay {
   position: absolute;
-  top: 50%;
+  /* top: 50%;
   left: 50%;
-  transform:translate(-50%,-50%);
-  color: #1a1a1a;
+  transform:translate(-50%,-50%); */
+  text-align: center;
+
+  color: #fafafa;
 }
-#overlay h2 {
-  color: #1a1a1a;
+
+.overlay span h1 {
+  color: #fafafa;
+  font-size: 4rem;
+  padding-top: 5rem;
 }
+
+
 
 .content-section {
   background: #ffffff;
