@@ -43,11 +43,11 @@ h3 {
   font-size: 1.2rem;
 }
 
-#anchor {
+/* #anchor {
   font-style: bold;
   color: #1a1a1a;
   text-decoration: underline;
-}
+} */
 
 .bg-light {
   padding-top: 1.2rem;
@@ -129,21 +129,20 @@ img {
 
 .overlay {
   position: absolute;
-  /* top: 50%;
+  top: 50%;
   left: 50%;
-  transform:translate(-50%,-50%); */
   text-align: center;
-
   color: #fafafa;
 }
 
-.overlay span h1 {
+.overlay h1 {
   color: #fafafa;
   font-size: 4rem;
-  padding-top: 5rem;
 }
 
-
+/* .overlay a:hover {
+  color: #fafafa;
+} */
 
 .content-section {
   background: #ffffff;
@@ -156,49 +155,7 @@ img {
 .article-title {
   color: #1a1a1a;
 }
+
 a:hover {
   text-decoration: underline;
-}
-
-a.article-title:hover {
-  color: #1a1a1a;
-  text-decoration: none;
-}
-
-.article-content {
-  white-space: pre-line;
-}
-
-.article-img {
-  height: 65px;
-  width: 65px;
-  margin-right: 16px;
-}
-
-.article-metadata {
-  padding-bottom: 1px;
-  margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
-}
-
-.article-metadata a:hover {
-  color: #333;
-  text-decoration: none;
-}
-
-.article-svg {
-  width: 25px;
-  height: 25px;
-  vertical-align: middle;
-}
-
-.account-img {
-  height: 125px;
-  width: 125px;
-  margin-right: 20px;
-  margin-bottom: 16px;
-}
-
-.account-heading {
-  font-size: 2.5rem;
 }
