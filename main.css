@@ -155,7 +155,9 @@ filter:alpha(opacity=100);
   filter: brightness(50%);
 }
 
-
+#spacer {
+  padding-top: 2rem;
+}
 
 
 
