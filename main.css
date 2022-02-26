@@ -12,6 +12,14 @@ body {
   align-items: center;
 }
 
+.exhibition {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
 .intro {
   margin-bottom: 2rem;
   text-align: center;
