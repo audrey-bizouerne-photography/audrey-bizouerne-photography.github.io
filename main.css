@@ -44,7 +44,7 @@ a {
 
 h1 {
   color: #1a1a1a;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 1.8rem;
 }
 
@@ -118,8 +118,8 @@ img {
 height: 100%; */
 /* float:left; */
 /* overflow:hidden; */
-position:relative;
-display: inline-block;
+/* position:relative;
+display: inline-block; */
 text-align:center;
 
 /* cursor: default; */
