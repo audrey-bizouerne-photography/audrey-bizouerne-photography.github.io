@@ -9,11 +9,10 @@ body {
 
 .intro {
   margin-bottom: 2rem;
+  text-align: center;
+  align-items: center;
 }
 
-.banner {
-
-}
 
 .intro-work {
   margin-bottom: 0.0rem;
