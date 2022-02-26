@@ -2,11 +2,17 @@ body {
   background: #fafafa;
   color: #1a1a1a;
   margin-top: 6rem;
+  text-align: center;
+  align-items: center;
 
 }
 
 .intro {
   margin-bottom: 2rem;
+}
+
+.banner {
+
 }
 
 .intro-work {
