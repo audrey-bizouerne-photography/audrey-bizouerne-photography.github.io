@@ -7,6 +7,11 @@ body {
 
 }
 
+.container {
+  text-align: center;
+  align-items: center;
+}
+
 .intro {
   margin-bottom: 2rem;
   text-align: center;
